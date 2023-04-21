@@ -21,9 +21,6 @@
         "ext-json": ">=1.0",
         "hanson/foundation-sdk": "^5.0"
     },
-    "minimum-stability": {
-        "stable": ">=1.0.0"
-    },
     "autoload": {
         "psr-4": {
             "Mkang\\BaiduAIP\\": "src"
