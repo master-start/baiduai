@@ -10,7 +10,7 @@ requirements
 ## 安装
 install
 ```bash
-$ composer require Mkang-dev/baidu-aip
+$ composer require mkang-dev/baidu-aip
 ```
 
 ## 使用
