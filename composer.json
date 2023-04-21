@@ -1,0 +1,39 @@
+{
+    "name": "Mkang-dev/baidu-aip",
+    "description": "百度 AI 开放平台 php-sdk 原96qbhy 进行改动分析修复",
+    "license": "MIT",
+    "keywords": [
+        "百度AI",
+        "百度AI开放平台",
+        "开放平台",
+        "自然语言处理",
+        "文心一言",
+        "人脸识别"
+    ],
+    "authors": [
+        {
+            "name": "masterkang",
+            "email": "php-dev@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": ">=1.0",
+        "hanson/foundation-sdk": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mkang\\BaiduAIP\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mkang\\BaiduAIP\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "illuminate/support": "^5.5"
+    }
+}
