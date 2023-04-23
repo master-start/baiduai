@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "ext-json": ">=1.0",
+        "php": ">=7.2.5",
+        "ext-json": "*",
         "hanson/foundation-sdk": "^5.0"
     },
     "autoload": {
